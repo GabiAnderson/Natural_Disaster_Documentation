@@ -1,8 +1,8 @@
 # Template Feature
-[How It Works](#how-it-works)
-[Files](#files)
-[Flow](#flow)
-[Results](#results)
+[How It Works](#how-it-works)  
+[Files](#files)  
+[Flow](#flow)  
+[Results](#results)  
 
 ## How it Works
 This feature works by taking the users provided information and creating a neat and clean way to display this information to other users. This feature works using simple copy and paste.
