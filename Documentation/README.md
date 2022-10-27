@@ -6,7 +6,7 @@ When adding documentation for a new feature or updating documentation of an exis
 - Create subfolders within `Feature Name` for sub features labeled `Sub Feature Name`
 - Create .md files for each UE file required for the feature (labeled `UEFileX.md`)
 - Place these files in the Feature or Sub Feature folder(s) - where they make the most sense
-- Create a `Feature.md` file
+- Create a `README.md` file in the `Feature Name` folder
 
 ## Step 2 - Explain the General Flow
 Within the `Feature.md` file:
@@ -24,6 +24,6 @@ Within each `UEFileX.md` file:
  - Provide multiple screenshots of the blueprint(s) with an explanation of what each section does
 
 ## Step 4 - Show Result
-Within the `Feature.md` file:
+Within the `README.md` file:
 - Create a section entintle *Results*
 - Post screenshots/videos/gifs of the feature in action
