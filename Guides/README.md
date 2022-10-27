@@ -1,4 +1,9 @@
 This section is designed to be super simple and easy to process.
+# Designer
+1. Find the feature you are wanting to add to a level
+2. Open the `feature.md` file
+3. Read through the explanation
+4. For any questions, within the file find the name of the engineer(s) who worked on the feature
 
 # Engineer
 1. Create a file `FeatureName.md`
