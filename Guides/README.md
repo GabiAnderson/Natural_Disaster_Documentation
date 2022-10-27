@@ -1,4 +1,3 @@
-This section is designed to be super simple and easy to process.
 # Designer
 1. Find the feature you are wanting to add to a level
 2. Open the `feature.md` file
@@ -13,3 +12,4 @@ This section is designed to be super simple and easy to process.
 5. Include images and gifs to help
 6. Provide a step-by-step video on how to set up the feature
 7. Write your name somewhere near the top of the page if you worked on the feature so people know who to contact for questions
+8. Remeber this section is meant to be **super** simple - no excess programming words or knowledge please
