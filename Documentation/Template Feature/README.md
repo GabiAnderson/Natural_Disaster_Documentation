@@ -20,3 +20,4 @@ FileB_1 -> FileA_1 -> FileA_2 -> ...
 
 ## Results
 ![alt text](https://github.com/MrCleen/Natural_Disaster_Documentation/blob/main/Documentation/Template%20Feature/Results_Gif.gif)
+![alt text](https://github.com/MrCleen/Natural_Disaster_Documentation/blob/main/Documentation/Template%20Feature/Results_Img.jpg)
