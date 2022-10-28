@@ -1,14 +1,16 @@
 # Interact Component
 
-[File Details](#file-details)
+Table of Contents
 
-[Editor Variables](#editor-variables)
+- [File Details](#file-details)
+- [Editor Variables](#editor-variables)
+- [Linking Interact Effects](#linking-interact-effects)
 
-[Linking Interact Effects](#linking-interact-effects)
 
 
 
-### File Details
+
+## File Details
 
 | Attribute            | Description                                                  |
 | -------------------- | ------------------------------------------------------------ |
@@ -20,7 +22,7 @@
 
 
 
-### Editor Variables
+## Editor Variables
 
 Category: _Interact Settings_
 
@@ -42,7 +44,7 @@ Category: _Debug_
 
 
 
-### Linking Interact Effects
+## Linking Interact Effects
 
 - When the player successfully triggers an interaction, then this component will activate all sibling <u>Interact Effects</u> owned by the parent actor.
 

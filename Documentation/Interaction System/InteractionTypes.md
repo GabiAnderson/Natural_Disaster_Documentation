@@ -1,12 +1,16 @@
 ## Interaction Types
 
-[File Details](#file-details)
+Table of Contents
 
-[Enum Values](#enum-values)
+- [File Details](#file-details)
+
+- [Enum Values](#enum-values)
 
 
 
-### File Details
+
+
+## File Details
 
 | Attribute         | Description                                  |
 | ----------------- | -------------------------------------------- |
@@ -17,7 +21,7 @@
 
 
 
-### Enum Values
+## Enum Values
 
 | Name               | Description                                                  |
 | ------------------ | ------------------------------------------------------------ |
@@ -25,3 +29,4 @@
 | `AutoWhenLanded`   | The interaction will trigger as soon as the player pawn lands on a <u>Landing Point Component</u> owned by the parent actor. |
 | `ButtonInRange`    | The interaction will trigger if the player presses **Interact** while overlapping the parent actor's collision. |
 | `ButtonWhenLanded` | The interaction will trigger if the player presses **Interact** while landed on a <u>Landing Point Component</u> owned by the parent actor. |
+

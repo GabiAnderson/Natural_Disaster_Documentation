@@ -1,8 +1,12 @@
 # Interaction System
 
-[How it Works](#how-it-works)
+Table of Contents
 
-[Modules](#modules)
+- [How it Works](#how-it-works)
+
+- [Modules](#modules)
+
+
 
 
 
