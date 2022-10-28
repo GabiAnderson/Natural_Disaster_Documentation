@@ -6,9 +6,7 @@ Table of Contents
 - [Editor Variables](#editor-variables)
 - [Linking Interact Effects](#linking-interact-effects)
 
-
-
-
+<br>
 
 ## File Details
 
@@ -20,7 +18,7 @@ Table of Contents
 | Implements           | `BPI_Lockable`, `BPI_Interact_Listener`                      |
 | Special Requirements | 1. The actor that owns this component must have a collision component (of any shape). <br> 2. If the Interact Type is `AutoWhenLanded` or `ButtonWhenLanded`, then the parent actor must have a <u>Landing Point Component</u>. |
 
-
+<br>
 
 ## Editor Variables
 
@@ -42,7 +40,7 @@ Category: _Debug_
 | Debug Print Pawn Overlap               | `Bool` | If true, then will print a line to the screen when a pawn triggers either the BeginOverlap or EndOverlap event in the actor that owns the component. |
 | Debug Print Triggered Interact Effects | `Bool` | If true, then will print a line to the screen for each <u>InteractEffect</u> that is triggered when the component is interacted with. |
 
-
+<br>
 
 ## Linking Interact Effects
 

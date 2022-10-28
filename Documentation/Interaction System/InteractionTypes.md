@@ -6,9 +6,7 @@ Table of Contents
 
 - [Enum Values](#enum-values)
 
-
-
-
+<br>
 
 ## File Details
 
@@ -19,7 +17,7 @@ Table of Contents
 | Type              | `Enum`                                       |
 | Used In           | [Interact Component](./InteractComponent.md) |
 
-
+<br>
 
 ## Enum Values
 

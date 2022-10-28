@@ -6,15 +6,13 @@ Table of Contents
 
 - [Modules](#modules)
 
-
-
-
+<br>
 
 ## How it Works
 
 The interaction system works primarily through adding actor components to any given actor. First, add an [Interact Component](./InteractComponent.md) to an actor to make it interactable and configure how the interaction should be triggered, then customize what happens as a result of that interaction by adding one or more <u>Interact Effect</u> components to the same actor.
 
-
+<br>
 
 ## Modules
 
