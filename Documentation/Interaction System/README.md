@@ -3,7 +3,6 @@
 Table of Contents
 
 - [How it Works](#how-it-works)
-
 - [Modules](#modules)
 
 <br>

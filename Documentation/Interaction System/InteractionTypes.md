@@ -3,7 +3,6 @@
 Table of Contents
 
 - [File Details](#file-details)
-
 - [Enum Values](#enum-values)
 
 <br>
