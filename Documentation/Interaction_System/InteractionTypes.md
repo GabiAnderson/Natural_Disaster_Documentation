@@ -23,7 +23,7 @@ Table of Contents
 | Name               | Description                                                  |
 | ------------------ | ------------------------------------------------------------ |
 | `AutoInRange`      | The interaction will trigger as soon as the player pawn starts overlapping the parent actor's collision. |
-| `AutoWhenLanded`   | The interaction will trigger as soon as the player pawn lands on a <u>Landing Point Component</u> owned by the parent actor. |
+| `AutoWhenLanded`   | The interaction will trigger as soon as the player pawn lands on a [Landing Point Component](../Landing_Points/LandingPointComponent.md) owned by the parent actor. |
 | `ButtonInRange`    | The interaction will trigger if the player presses **Interact** while overlapping the parent actor's collision. |
-| `ButtonWhenLanded` | The interaction will trigger if the player presses **Interact** while landed on a <u>Landing Point Component</u> owned by the parent actor. |
+| `ButtonWhenLanded` | The interaction will trigger if the player presses **Interact** while landed on a [Landing Point Component](../Landing_Points/LandingPointComponent.md) owned by the parent actor. |
 

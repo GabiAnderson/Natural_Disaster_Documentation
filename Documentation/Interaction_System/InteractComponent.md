@@ -16,7 +16,7 @@ Table of Contents
 | Containing Folder    | `/Content/Core/Interaction/`                                 |
 | Type                 | `Actor Component`                                            |
 | Implements           | `BPI_Lockable`, `BPI_Interact_Listener`                      |
-| Special Requirements | 1. The actor that owns this component must have a collision component (of any shape). <br> 2. If the Interact Type is `AutoWhenLanded` or `ButtonWhenLanded`, then the parent actor must have a <u>Landing Point Component</u>. |
+| Special Requirements | 1. The actor that owns this component must have a collision component (of any shape). <br> 2. If the Interact Type is `AutoWhenLanded` or `ButtonWhenLanded`, then the parent actor must have a [Landing Point Component](../Landing_Points/LandingPointComponent.md). |
 
 <br>
 

@@ -29,6 +29,6 @@ Table of Contents
 
 ### Triggering Interactions
 
-- If the parent actor contains an [Interact Component](../Interaction System/InteractComponent.md) with its [Interaction Type](../Interaction System/InteractionTypes.md) set to either `AutoWhenLand` or `ButtonWhenLand`, then any landing point component on the parent actor can be used to activate the interaction for that object.
+- If the parent actor contains an [Interact Component](../Interaction_System/InteractComponent.md) with its [Interaction Type](../Interaction_System/InteractionTypes.md) set to either `AutoWhenLand` or `ButtonWhenLand`, then any landing point component on the parent actor can be used to activate the interaction for that object.
 
 <br>
