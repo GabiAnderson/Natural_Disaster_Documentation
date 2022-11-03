@@ -8,7 +8,7 @@
 Table of Contents
 
 - [Adding Landing Points to an Object](#adding-landing-points-to-an-object)
-- [Do's and Don'ts for Landing Point Scale](#do's-and-don'ts-for-landing-point-scale)
+- [Do's and Don'ts for Landing Point Scale](#dos-and-donts-for-landing-point-scale)
 
 <br>
 
