@@ -57,22 +57,12 @@ Table of Contents
 
 | Step Description                                             | Image                            |
 | ------------------------------------------------------------ | -------------------------------- |
-| 1. Create a new blueprint class with a parent class of `CommonButtonStyle`. \* | ![](images/StylingButtons-1.png) |
-| 2. Edit the fields on your new `ButtonStyle` asset. \*\*     | ![](images/StylingButtons-2.png) |
-| 3. Create a new UI_Default_Button widget \*\*\*              | ![](images/StylingButtons-3.png) |
-| 4. Apply the style to your button. \*\*\*\*                  | ![](images/StylingButtons-4.png) |
-
-\(*) When naming your new class, use the prefix `ButtonStyle_` (ex: `ButtonStyle_Scrapbook`)
-
-(\*\*) Note: due to a quirk in how the class is implemented, the `TextStyle` fields here *<u>do not work</u>*. The workaround for this is adding an exposed field in the button widget itself, which has been done in the `UI_Default_Button` widget class.
-
-(\*\*\*) `ButtonStyle` assets only work with CommonUI classes, such as UI_Default_Button. If you need a button with more than just a text label on it, refer to [Creating a New Button Widget](#creating-a-new-button-widget) to make a new custom class of button.
-
-(\*\*\*\*) If you're using `UI_Default_Button`, you should also see a Text Style field, which is used as a workaround for the quirk discussed in step 2. Use this field to change the `TextStyle` asset that is applied to the button.
+| 1. Create a new blueprint class with a parent class of `CommonButtonStyle`.<br />  <br /><br /><font size="2">*When naming your new class, use the prefix 'ButtonStyle_' (ex: ButtonStyle_Scrapbook)*</font> | ![](images/StylingButtons-1.png) |
+| 2. Edit the fields on your new `ButtonStyle` asset. <br /><br /><br /><font size="2">*Note: due to a quirk in how the class is implemented, the TextStyle fields here <u>do not work</u>. The workaround for this is adding an exposed field in the button widget itself, which has been done in the UI_Default_Button widget class.*</font> | ![](images/StylingButtons-2.png) |
+| 3. Create a new UI_Default_Button widget<br /><br /><br /><font size="2">*ButtonStyle assets only work with CommonUI classes, such as UI_Default_Button. If you need a button with more than just a text label on it, refer to [Creating a New Button Widget](#creating-a-new-button-widget) to make a new custom class of button.*</font> | ![](images/StylingButtons-3.png) |
+| 4. Apply the style to your button. <br /><br /><br /><font size="2">*If you're using UI_Default_Button, you should also see a Text Style field, which is used as a workaround for the quirk discussed in step 2. Use this field to change the TextStyle asset that is applied to the button.*</font> | ![](images/StylingButtons-4.png) |
 
 <br>
-
-
 
 
 
