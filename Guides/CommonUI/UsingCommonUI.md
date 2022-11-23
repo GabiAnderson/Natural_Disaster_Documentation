@@ -32,20 +32,12 @@ Table of Contents
 
 ### **Styling Text**
 
-#### Steps
-
 | Step Description                                             | Image                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1. Create a new blueprint class with a parent class of `CommonTextStyle`. \* | ![StylingText-1](images/StylingText-1.png)                   |
-| 2. Edit the fields on your new `TextStyle` asset. \*\*       | ![](images/StylingText-2.png)                                |
-| 3. Create a new Common Text widget \*\*\*                    | ![](images/StylingText-2.5.png)                              |
+| 1. Create a new blueprint class with a parent class of `CommonTextStyle`. <br /><br /><br />*When naming your new class, use the prefix 'TextStyle_' (ex: TextStyle_Scrapbook_Header).* | ![StylingText-1](images/StylingText-1.png)                   |
+| 2. Edit the fields on your new `TextStyle` asset. <br /><br /><br />*Usually, you'll just want to change the Font Family, Size, and Color fields, but you can also do things like add an outline or drop shadow here if desired.* | ![](images/StylingText-2.png)                                |
+| 3. Create a new Common Text widget.<br /><br /><br />*TextStyle assets only work with CommonUI classes, such as the 'Common Text' widget. If the text you are wanting to change does not derive from one of those classes, then you will need to replace it.* | ![](images/StylingText-2.5.png)                              |
 | 3. Apply the style to your text.                             | ![](images/StylingText-3-1.png)<br />![](images/StylingText-3-2.png) |
-
-\(*) When naming your new class, use the prefix `TextStyle_` (ex: `TextStyle_Scrapbook_Header`).
-
-(\*\*) Usually, you'll just want to change the `Font Family`, `Size`, and `Color` fields, but you can also do things like add an outline or drop shadow here if desired.
-
-(\*\*\*) `TextStyle` assets only work with CommonUI classes, such as the `Common Text` widget. If the text you are wanting to change does not derive from one of those classes, then you will need to replace it.
 
 <br>
 
@@ -53,16 +45,16 @@ Table of Contents
 
 ### **Styling Buttons**
 
-#### Steps
-
 | Step Description                                             | Image                            |
 | ------------------------------------------------------------ | -------------------------------- |
-| 1. Create a new blueprint class with a parent class of `CommonButtonStyle`.<br />  <br /><br /><font size="2">*When naming your new class, use the prefix 'ButtonStyle_' (ex: ButtonStyle_Scrapbook)*</font> | ![](images/StylingButtons-1.png) |
-| 2. Edit the fields on your new `ButtonStyle` asset. <br /><br /><br /><font size="2">*Note: due to a quirk in how the class is implemented, the TextStyle fields here <u>do not work</u>. The workaround for this is adding an exposed field in the button widget itself, which has been done in the UI_Default_Button widget class.*</font> | ![](images/StylingButtons-2.png) |
-| 3. Create a new UI_Default_Button widget<br /><br /><br /><font size="2">*ButtonStyle assets only work with CommonUI classes, such as UI_Default_Button. If you need a button with more than just a text label on it, refer to [Creating a New Button Widget](#creating-a-new-button-widget) to make a new custom class of button.*</font> | ![](images/StylingButtons-3.png) |
-| 4. Apply the style to your button. <br /><br /><br /><font size="2">*If you're using UI_Default_Button, you should also see a Text Style field, which is used as a workaround for the quirk discussed in step 2. Use this field to change the TextStyle asset that is applied to the button.*</font> | ![](images/StylingButtons-4.png) |
+| 1. Create a new blueprint class with a parent class of `CommonButtonStyle`.<br />  <br /><br />*When naming your new class, use the prefix 'ButtonStyle_' (ex: ButtonStyle_Scrapbook)* | ![](images/StylingButtons-1.png) |
+| 2. Edit the fields on your new `ButtonStyle` asset. <br /><br /><br />*Note: due to a quirk in how the class is implemented, the TextStyle fields here <u>do not work</u>. The workaround for this is adding an exposed field in the button widget itself, which has been done in the UI_Default_Button widget class.* | ![](images/StylingButtons-2.png) |
+| 3. Create a new UI_Default_Button widget.<br /><br /><br />*ButtonStyle assets only work with CommonUI classes, such as UI_Default_Button. If you need a button with more than just a text label on it, refer to [Creating a New Button Widget](#creating-a-new-button-widget) to make a new custom class of button.* | ![](images/StylingButtons-3.png) |
+| 4. Apply the style to your button. <br /><br /><br />*If you're using UI_Default_Button, you should also see a Text Style field, which is used as a workaround for the quirk discussed in step 2. Use this field to change the TextStyle asset that is applied to the button.* | ![](images/StylingButtons-4.png) |
 
 <br>
+
+
 
 
 ### **Creating a New Button Widget**
@@ -78,7 +70,7 @@ If you are trying to create a button that just has a text label on it, but that 
 
 <br>
 
-#### Notes on Custom Button Classes
+#### Custom Button Classes
 
 - In order to mesh with the CommonUI system, your custom button class must extend from `CommonButtonBase`.
 - As a shortcut for getting a foundation to build on, feel free to duplicate the `UI_Scrapbook_Character_Button` widget, found under `/Core/UI/Scrapbook/`.
