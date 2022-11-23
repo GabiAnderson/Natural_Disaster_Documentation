@@ -1,7 +1,7 @@
 # List of Guides
 
 - [Using Landing Points](./LandingPoints/UsingLandingPoints.md)
-- [CommonUI Tutorials](./LandingPoints/UsingCommonUI.md)
+- [CommonUI Tutorials](./CommonUI/UsingCommonUI.md)
 
 
 <br>
