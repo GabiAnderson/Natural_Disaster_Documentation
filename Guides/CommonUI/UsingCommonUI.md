@@ -30,7 +30,7 @@ Table of Contents
 
 ## Tutorials
 
-### Styling Text
+### **Styling Text**
 
 #### Steps
 
@@ -51,7 +51,7 @@ Table of Contents
 
 
 
-### Styling Buttons
+### **Styling Buttons**
 
 #### Steps
 
@@ -65,8 +65,7 @@ Table of Contents
 <br>
 
 
-
-### Creating a New Button Widget
+### **Creating a New Button Widget**
 
 #### Preface
 
@@ -102,7 +101,6 @@ If you are trying to create a button that just has a text label on it, but that 
 
 - Unreal Engine: [Introduction to Common UI | Inside Unreal](https://www.youtube.com/watch?v=TTB5y-03SnE) (2:41:30)
 - Isbushka Oji: [Common UI tutorial - easy gamepad UI in Unreal Engine 5](https://www.youtube.com/watch?v=uQisYatymjg) (55:16)
-- 
 
 
 
