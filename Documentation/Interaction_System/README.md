@@ -20,3 +20,4 @@ The interaction system works primarily through adding actor components to any gi
 | [Interact Component](./InteractComponent.md) | Component used to make an actor interactable. |
 | <u>Interact Effects</u> | A group of components used to specify what should happen as a result of an interaction. |
 | [Interaction Types](./InteractionTypes.md) | Enum values that specify how an interaction should be triggered. |
+| [Interaction Subsystem](../Subsystems/Interaction_Subsystem/InteractionSubsystem.md) | Subsystem for keeping track of active interactables. |
