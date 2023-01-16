@@ -2,6 +2,7 @@
 
 - [Using Landing Points](./LandingPoints/UsingLandingPoints.md)
 - [CommonUI Tutorials](./CommonUI/UsingCommonUI.md)
+- [How to Make a Build](./Build/HowToBuild.md)
 
 
 <br>
