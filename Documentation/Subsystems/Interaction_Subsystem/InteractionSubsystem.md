@@ -3,7 +3,7 @@
 Table of Contents
 
 - [File Details](#file-details)
-- [Blueprint Functions](#functions)
+- [Blueprint Functions](#blueprint-functions)
   - [Actor Registration](#actor-registration)
   - [Closest Interactable](#closest-interactable)
 
